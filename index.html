@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/522bfc818a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Ankush</span> Adak</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------ABOUT------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/LMC_20231231_142907_Pixel Hero 🔥 (Lmc 8.4 R14).jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1  class="subtitle">About Me</h1>
+                    <p>Currently pursuing BCA from IITM Janakpuri. Known for my punctuality and calm behaveiour. With a stong passion for technology, I have optimum knowledge in Web Development.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+                        </ul>
+                    </div>+
+                    
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - 2023</span><br>Internship at Bharat Intern</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Bachelor's in Computer Applications from IITM Janakpuri</li>
+                            <li><span>2023 - 2023</span><br>Web Development training at Bharat Intern</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------SERVICES------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, iure exercitationem nobis, consequuntur error delectus, eligendi quae reprehenderit cumque nam aliquam earum numquam similique? Voluptas fugit debitis tempora rerum veniam.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, iure exercitationem nobis, consequuntur error delectus, eligendi quae reprehenderit cumque nam aliquam earum numquam similique? Voluptas fugit debitis tempora rerum veniam.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, iure exercitationem nobis, consequuntur error delectus, eligendi quae reprehenderit cumque nam aliquam earum numquam similique? Voluptas fugit debitis tempora rerum veniam.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------PORTFOLIO------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitile">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the woeld. Download it from Play Store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the woeld. Download it from Play Store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the woeld. Download it from Play Store</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!------------------CONTACT------------------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>adakankush2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>7053272755</p>
+                    <div class="social-icons">
+                        <a href="https://twitter.com/AnkushAdak"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/ig._.ankush/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/ankush-adak-941638226/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Ankush's Resume 1.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Ankush. Made with <i class="fa-solid fa-star"></i></p>
+        </div>
+    </div>
+    
+
+<script src="first.js"></script>
+</body>
+
+</html>
